@@ -69,7 +69,7 @@ guard let NumberA = Int(a), let NumberB = Int(b) else {label.text = "Введи�
         let b = textField2.text!
         
         //let sum = Int(a)! + Int(b)!
-guard let NumberA = Int(a), let NumberB = Int(b) else {label.text = "Введите 2 числа"
+        guard let NumberA = Double(a), let NumberB = Double(b) else {label.text = "Введите 2 числа"
     return
 }
         let sum = NumberA / NumberB
